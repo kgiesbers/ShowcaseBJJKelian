@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShowcaseBJJKelian
 {
-    internal class Teacher
+    public class Teacher
     {
         private string name;
 
@@ -15,9 +15,9 @@ namespace ShowcaseBJJKelian
             this.name = name;
         }
 
-        void CreateTraining()
+        private void CreateTraining(DateTime date, Teacher teacher, Technique technique)
         {
-
+            Training training = new Training(date, teacher, technique);            
         }
     }
 }

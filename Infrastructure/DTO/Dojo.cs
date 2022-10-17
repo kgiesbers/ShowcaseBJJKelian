@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShowcaseBJJKelian
 {
-    internal class Dojo
+    public class Dojo
     {
         private string name;
         private List<Teacher> teachers = new List<Teacher>();
@@ -17,23 +17,6 @@ namespace ShowcaseBJJKelian
         public Dojo(string name)
         {
             this.name = name;
-        }
-
-        void addTeacher(Teacher teacher)
-        {
-            teachers.Add(teacher);
-        }
-        void addStudent(Student student)
-        {
-            students.Add(student);
-        }
-        void addTechnique(Technique technique)
-        {
-            techniques.Add(technique);
-        }
-        void addTraining(Training training)
-        {
-            trainings.Add(training);
         }
     }
 }

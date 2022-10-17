@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace ShowcaseBJJKelian
 {
-    internal class Technique
+    public class Student
     {
         private string name;
-        private Difficulty difficulty;
+        private Beltlevel beltlevel;
 
-        public Technique(string name, Difficulty difficulty)
+        public Student(string name,  Beltlevel beltlevel)
         {
             this.name = name;
-            this.difficulty = difficulty;
+            this.beltlevel = beltlevel;
         }
-
-
     }
 }

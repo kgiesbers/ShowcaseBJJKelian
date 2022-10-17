@@ -23,6 +23,14 @@ namespace ShowcaseBJJKelian
         Advanced,
         Expert
     }
+    public enum Bodytype
+    {
+        one,
+        two,
+        three,
+        four,
+        five
+    }
 
     internal class Enums
     {
