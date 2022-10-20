@@ -25,7 +25,5 @@ namespace ShowcaseBJJKelian
             this.name = name;
             this.difficulty = difficulty;
         }
-
-
     }
 }

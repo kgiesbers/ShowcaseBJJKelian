@@ -6,14 +6,6 @@ using System.Threading.Tasks;
 
 namespace Infrastructure
 {
-    public enum Beltlevel
-    {
-        White,
-        Blue,
-        Purple,
-        Brown,
-        Black
-    }
 
     public enum Difficulty
     {
