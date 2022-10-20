@@ -9,6 +9,13 @@ namespace ShowcaseBJJKelian
     public class Teacher
     {
         private string name;
+        private List<Note> notes = new List<Note>();
+
+        public string Name
+        {
+            get { return name; }
+        }
+        
 
         public Teacher(string name)
         {
@@ -18,6 +25,11 @@ namespace ShowcaseBJJKelian
         private void CreateTraining(DateTime date, Teacher teacher, Technique technique)
         {
             Training training = new Training(date, teacher, technique);            
+        }
+
+        void AddNote(Note note)
+        {
+            notes.Add(note);
         }
     }
 }

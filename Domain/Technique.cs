@@ -6,10 +6,19 @@ using System.Threading.Tasks;
 
 namespace ShowcaseBJJKelian
 {
-    public class Technique
+    public abstract class Technique
     {
         private string name;
         private Difficulty difficulty;
+
+        public string Name
+        {
+            get { return name; }
+        }
+        public Difficulty Difficulty
+        {
+            get { return difficulty; }
+        }
 
         public Technique(string name, Difficulty difficulty)
         {

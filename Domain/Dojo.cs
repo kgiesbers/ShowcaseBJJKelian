@@ -15,6 +15,11 @@ namespace ShowcaseBJJKelian
         private List<Technique> techniques = new List<Technique>();
         private List<Training> trainings = new List<Training>();
 
+        public string Name
+        {
+            get { return name; }
+        }
+
         public Dojo(string name)
         {
             this.name = name;

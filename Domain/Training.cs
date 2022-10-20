@@ -12,7 +12,18 @@ namespace ShowcaseBJJKelian
         private Teacher teacher;
         private Technique technique;
         private List<Student> students = new List<Student>();
-
+        public DateTime Date
+        {
+            get { return date; }
+        }
+        public Teacher Teacher
+        {
+            get { return teacher; }
+        }
+        public Technique Technique
+        {
+            get { return technique; }
+        }
 
         public Training(DateTime date, Teacher teacher, Technique technique)
         {

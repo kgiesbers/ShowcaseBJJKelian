@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShowcaseBJJKelian
+namespace Infrastructure
 {
     public class Dojo
     {
@@ -13,6 +13,11 @@ namespace ShowcaseBJJKelian
         private List<Student> students = new List<Student>();
         private List<Technique> techniques = new List<Technique>();
         private List<Training> trainings = new List<Training>();
+
+        public string Name
+        {
+            get { return name; }
+        }
 
         public Dojo(string name)
         {
