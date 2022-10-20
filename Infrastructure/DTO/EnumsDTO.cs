@@ -32,7 +32,7 @@ namespace ShowcaseBJJKelian
         five
     }
 
-    internal class Enums
+    public class Enums
     {
     }
 }

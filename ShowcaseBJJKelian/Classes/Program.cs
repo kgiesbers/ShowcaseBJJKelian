@@ -13,12 +13,11 @@ namespace ShowcaseBJJKelian
 
             Dojo dojo = new Dojo("dojo1");
             Teacher teacher1 = new Teacher("teacher1");
-            Student student1 = new Student("student1", Beltlevel.White);
+            Student student1 = new Student("firstname", "lastname", Beltlevel.White);
             Technique mount = new Technique("mount", Difficulty.Basic);
             dojo.addTeacher(teacher1);
             dojo.addStudent(student1);
             dojo.addTechnique(mount);
-
         }
     }
 }

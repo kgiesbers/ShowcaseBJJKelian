@@ -8,12 +8,14 @@ namespace ShowcaseBJJKelian
 {
     public class Student
     {
-        private string name;
+        private string firstname;
+        private string lastname;
         private Beltlevel beltlevel;
 
-        public Student(string name,  Beltlevel beltlevel)
+        public Student(string firstname, string lastname, Beltlevel beltlevel)
         {
-            this.name = name;
+            this.firstname = firstname;
+            this.lastname = lastname;
             this.beltlevel = beltlevel;
         }
     }
