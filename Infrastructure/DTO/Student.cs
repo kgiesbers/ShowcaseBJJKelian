@@ -8,10 +8,15 @@ namespace Infrastructure
 {
     public class Student
     {
+        private int id;
         private string firstname;
         private string lastname;
         private Beltlevel beltlevel;
 
+        public int Id
+        {
+            get { return id; }
+        }
         public string Firstname
         {
             get { return firstname; }
@@ -25,8 +30,9 @@ namespace Infrastructure
             get { return beltlevel; }
         }
 
-        public Student(string firstname, string lastname, Beltlevel beltlevel)
+        public Student(int id, string firstname, string lastname, Beltlevel beltlevel)
         {
+            this.id = id;
             this.firstname = firstname;
             this.lastname = lastname;
             this.beltlevel = beltlevel;

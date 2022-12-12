@@ -41,9 +41,17 @@ namespace ShowcaseBJJKelian
         {
             trainings.Add(training);
         }
-        public void RecommendTechnique()
+        public List<Technique> RecommendTechnique(List<Student> students)
         {
+            List<Technique> RTechniques = new List<Technique>();
+            foreach (Student student in students)
+            {
+                if (student.Beltlevel == Domain.Beltlevel.White)
+                {
 
+                }
+            }
+            return RTechniques;
         }
     }
 }
